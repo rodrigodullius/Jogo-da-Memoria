@@ -3,7 +3,7 @@ const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
 const characters = [
-  'beth',
+  'carro1',
   'jerry',
   'jessica',
   'morty',

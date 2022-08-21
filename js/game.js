@@ -3,16 +3,16 @@ const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
 const characters = [
-  'carro1',
-  'jerry',
-  'jessica',
-  'morty',
-  'pessoa-passaro',
-  'pickle-rick',
-  'rick',
-  'summer',
-  'meeseeks',
-  'scroopy',
+  'robo1',
+  'robo2',
+  'robo3',
+  'robo4',
+  'robo5',
+  'robo6',
+  'robo7',
+  'robo8',
+  'robo9',
+  'robo10',
 ];
 
 const createElement = (tag, className) => {
@@ -29,7 +29,7 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML}`);
+    alert(`Parabéns, ${spanPlayer.innerHTML}! Você ganhou, seu tempo foi de : ${timer.innerHTML} segundos`);
   }
 }
 

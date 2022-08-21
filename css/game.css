@@ -2,7 +2,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/bg1.png');
   background-size: cover;
   min-height: 100vh;
   align-items: center;
@@ -56,9 +56,9 @@ header {
 .front {
   transform: rotateY(180deg);
 }
-
+/*parte de tras da carta*/
 .back {
-  background-image: url('../images/back.png');
+  background-image: url('../images/back11.jpg');
   backface-visibility: hidden;
 }
 
